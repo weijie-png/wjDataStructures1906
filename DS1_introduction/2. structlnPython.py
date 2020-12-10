@@ -30,3 +30,9 @@ t3 = Timer("test3()", "from __main__ import test3")
 print("comprehension ",t3.timeit(number=1000), "seconds")
 t4 = Timer("test4()", "from __main__ import test4")
 print("list range ",t4.timeit(number=1000), "seconds")
+
+
+from pythonds.basic.stack import Stack
+from pythonds.basic.queue import Queue
+from pythonds.basic.deque import Deque
+# from pythonds.trees import Tree
